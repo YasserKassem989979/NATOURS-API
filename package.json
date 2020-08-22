@@ -1,0 +1,28 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Tours Web App API's",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=prod nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MonogDB"
+  ],
+  "author": "Yasser",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  }
+}
