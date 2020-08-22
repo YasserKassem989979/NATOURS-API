@@ -1,3 +1,4 @@
+//response object
 exports.sendData = (name, data) => {
 	let result = {
 		message: "success",
@@ -12,6 +13,7 @@ exports.sendData = (name, data) => {
 	return result;
 };
 
+//response error 
 exports.sendError = (message) => {
 	console.log(message)
 	return {
